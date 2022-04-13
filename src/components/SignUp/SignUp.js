@@ -25,7 +25,7 @@ const SignUp = () => {
 
   const handleCreateUser = (event) => {
     event.preventDefault();
-    if (password != confirmPassword) {
+    if (password !== confirmPassword) {
       setError("password did not match");
       return;
     }
